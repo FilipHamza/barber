@@ -1,0 +1,101 @@
+.toastify.error {
+    background: rgb(220, 53, 69);
+    color: white;
+}
+
+.toastify.error .toast-close {
+    color: white;
+    font-family: initial;
+}
+
+.bi {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+    .sidebar .offcanvas-lg {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 48px;
+    }
+
+    .navbar-search {
+        display: block;
+    }
+}
+
+.sidebar .nav-link {
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+    color: #2470dc;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+}
+
+main {
+    min-height: calc(100vh - 50px);
+}
+
+.table .bi-check-lg {
+    color: green;
+    font-weight: bold;
+}
+
+.table .bi-x-lg {
+    color: red;
+    font-weight: bold;
+}
+
+#calendar .fc-daygrid-day-top a,
+#calendar .fc-col-header-cell a {
+    text-decoration: none;
+    color: black;
+}
+
+#calendar .fc-dayGridMonth-view .fc-daygrid-day-top {
+    background-color: #f8f9fa;
+}
+
+#calendar .fc-timeGridDay-view .fc-scrollgrid-sync-table {
+    display: none;
+}
+
+#calendar .fc-timeGridDay-view .fc-col-header-cell.fc-day-today {
+    padding: 6px 0px;
+}
+
+#calendar .fc-event {
+    cursor: pointer;
+}
+
+.admin-photo img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
